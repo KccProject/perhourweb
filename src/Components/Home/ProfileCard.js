@@ -24,7 +24,8 @@ function ProfileCard() {
         </div>
         <div style={{ justifyContent: "center", marginTop: 10 }}>
           <span
-            style={{
+            style={{   boxShadow: "0px 1px 5px grey",
+            paddingLeft: "40px",
               marginLeft: "10%",
               textAlign: "center",
               justifyContent: "center",
@@ -40,7 +41,7 @@ function ProfileCard() {
           width: "50%",
           display: "flex",
           flexDirection: "row",
-          //   justifyContent: "space-between",
+            justifyContent: "space-between",
           alignContent: "space-between",
         }}
       >
@@ -68,9 +69,10 @@ function ProfileCard() {
         </div>
         <div className="" style={{}}>
           <button
+          
             style={{
               backgroundColor: "#E3655B",
-              //   float: "right",
+                // float: "right",
               marginTop: "5%",
               color: "white",
               padding: "10px",
@@ -110,7 +112,7 @@ function ProfileCard() {
             <span style={{ marginLeft: 20, fontWeight: "bold" }}>4.9</span>
           </div>
           <div className="" style={{ flexWrap: "wrap", overflow: "clip" }}>
-            ghjhjkghjhjkghjhjkghjhjk
+           hello guys
           </div>
           <div className="">By: Sanjay Kumar</div>
         </div>
